@@ -7,7 +7,6 @@ Praca
         for neighbour in graph[node]:
             dfs(graph, neighbour, visited)
 
-# Undirected graph
 graph = {
     'A': ['B', 'C'],
     'B': ['A', 'D', 'E'],
